@@ -1,5 +1,8 @@
 [package]
 name = "cuda-fpga-toolkit"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
-description = "FPGA toolkit — TLMM ternary encoding, COE/MIF generation, Hilbert curve tile mapping"
+description = "TLMM encoding and Hilbert mapping — uses cuda-equipment"
+
+[dependencies]
+# cuda-equipment = { path = "../cuda-equipment" }
